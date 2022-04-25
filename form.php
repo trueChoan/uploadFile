@@ -49,7 +49,7 @@ if (isset($_GET['delete'])) {
 </head>
 
 <body>
-    <form class="page" action="" method="post" enctype="multipart/form-data">
+    <form class="page" action="" method="post" enctype="multipart/form-data" autocomplete="off">
         <label class="field field_v1">
             <input class="field__input" type="text" name="firstname" placeholder="e.g. Homer">
             <span class="field__label-wrap">
